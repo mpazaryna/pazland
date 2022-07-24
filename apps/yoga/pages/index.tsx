@@ -1,4 +1,5 @@
 import styles from './index.module.scss';
+import { Header } from '@pazland/shared-ui';
 
 export function Index() {
   /*
@@ -11,10 +12,8 @@ export function Index() {
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
-            <h1>
-              <span> Hello there, </span>
-              Welcome yoga 👋
-            </h1>
+            <Header />
+            This is the yoga app.
           </div>
 
           <div id="hero" className="rounded">
