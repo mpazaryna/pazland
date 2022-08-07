@@ -1,6 +1,5 @@
 import styles from './index.module.scss';
-import { Header } from '@pazland/shared-ui';
-import { Footer } from '@pazland/shared-ui';
+import { Header, Footer } from '@pazland/shared-ui';
 
 export function Index() {
   /*
